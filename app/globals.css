@@ -28,6 +28,17 @@ h3 {
   @apply w-full h-full bg-[#2a2a2a] opacity-40 absolute top-0;
 }
 
+.footer_head {
+  @apply font-serif-display text-xl text-text-gray my-8;
+}
+
+.footer_link_block {
+  @apply w-full md:w-[48%] lg:flex-1 flex flex-col items-center md:items-start text-center md:text-left md:items-start;
+}
+.footer_links {
+  @apply flex flex-col items-center md:items-start text-text-gray;
+}
+
 .hero::before {
   content: "";
   position: absolute;

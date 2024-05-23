@@ -54,3 +54,19 @@ export const reviewsArray: ReviewCardProps[] = [
     user: "JAMES BROOK",
   },
 ];
+
+export const footerMenuArray = [
+  "About Us",
+  "Reviews",
+  "Get Directions",
+  "Nearby Visits",
+  "Contact Us",
+];
+
+export const footerHelpArray = [
+  "Guest Support",
+  "Guest Feedback",
+  "FAQs",
+  "Offers",
+  "Location",
+];
