@@ -27,9 +27,7 @@ function Exprerience() {
             our inhouse guide. We can also help you arrange transport facilities
             for an easier commute to nearby places.
           </p>
-          <button className="text-white text-sm font-semibold bg-semi-black hover:bg-hover-black max-w-40 py-4">
-            KNOW MORE
-          </button>
+          <button className="generic_button">KNOW MORE</button>
         </div>
       </div>
     </section>

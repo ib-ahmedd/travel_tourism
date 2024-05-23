@@ -17,7 +17,11 @@ h1 {
 }
 
 h2 {
-  @apply font-serif-display text-semi-black text-4xl md:text-5xl;
+  @apply font-serif-display text-semi-black text-3xl md:text-5xl;
+}
+
+h3 {
+  @apply font-serif-display text-semi-black text-2xl sm:text-3xl;
 }
 
 .hero_filter {
@@ -32,4 +36,8 @@ h2 {
   mix-blend-mode: multiply;
   opacity: 0.35;
   background-color: #2a2a2a;
+}
+
+.generic_button {
+  @apply text-white text-sm font-semibold bg-semi-black hover:bg-hover-black w-fit px-10 py-4;
 }
