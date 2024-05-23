@@ -9,11 +9,15 @@
   @apply w-full flex justify-center;
 }
 .general_width {
-  @apply w-full px-4 xl:w-4/5 xl:px-0;
+  @apply w-full px-4 md:px-8 xl:w-4/5 xl:px-0;
 }
 
 h1 {
   @apply font-serif-display text-white font-normal leading-[4rem] text-5xl md:text-6xl lg:text-7xl;
+}
+
+h2 {
+  @apply font-serif-display text-semi-black text-4xl md:text-5xl;
 }
 
 .hero_filter {

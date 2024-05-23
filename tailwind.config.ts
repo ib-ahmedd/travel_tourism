@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         "semi-black": "#222",
         "hover-black": "#333",
-        "text-gray": "#69727d",
+        "text-gray": "#555",
       },
       backgroundImage: {
         "home-hero-bg": "url('/images/home/intro/bg-img.jpg')",
