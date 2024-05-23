@@ -9,7 +9,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full flex justify-center py-8 absolute top-0 text-white antialiased">
+    <nav className="w-full flex justify-center py-8 absolute top-0 text-white antialiased z-20">
       <div className="general_width items-center gap-16 hidden md:flex">
         <Link href="/" className="font-serif-display font-medium text-2xl">
           Travel & Tourism

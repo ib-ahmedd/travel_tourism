@@ -8,15 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "semi-black": "#69727d",
-        "hover-black": "#222",
+        "semi-black": "#222",
+        "hover-black": "#333",
         "text-gray": "#69727d",
       },
       backgroundImage: {
-        "home-intro-bg": "/images/home/intro/bg-img.jpg",
-        "room-intro-bg": "/images/rooms/intro/bg-img.jpg",
-        "contact-intro-bg": "/images/contact/intro/bg-img.jpg",
-        "footer-bg": "/images/footer/bg-img.jpg",
+        "home-hero-bg": "url('/images/home/intro/bg-img.jpg')",
+        "room-hero-bg": "url('/images/rooms/intro/bg-img.jpg')",
+        "contact-hero-bg": "url('/images/contact/intro/bg-img.jpg')",
+        "footer-bg": "url('/images/footer/bg-img.jpg')",
       },
       fontFamily: {
         "serif-display": ["'DM Serif Display'", "serif"],
