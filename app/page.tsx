@@ -1,4 +1,4 @@
-import { Amenities, Exprerience, Hero, Inside } from "./components";
+import { Amenities, Exprerience, Hero, Inside, Review } from "./components";
 
 function Home() {
   return (
@@ -7,6 +7,7 @@ function Home() {
       <Exprerience />
       <Amenities />
       <Inside />
+      <Review />
     </main>
   );
 }

@@ -1,4 +1,4 @@
-import { CardPropType } from "@types";
+import { CardPropType, ReviewCardProps } from "@types";
 
 export const navLinksArray: { title: string; path: string }[] = [
   { title: "HOME", path: "/" },
@@ -25,5 +25,32 @@ export const amenitiesArray: CardPropType[] = [
     imageDesc: "rooms",
     title: "In-house Restaurants",
     desc: "We have three in-house restaurants offering different cuisines that you can choose from.",
+  },
+];
+
+export const reviewsArray: ReviewCardProps[] = [
+  {
+    review:
+      '"Proin nulla mauris et volutpat adipiscing suspendisse vehicula blandit sagittis orci etiam morbi elit etiam semper eu lacus pretium hac nisl leo amet ullamcorper."',
+    image: "/images/home/reviews/img-1.jpg",
+    user: "EMILY HUNT",
+  },
+  {
+    review:
+      '"Proin nulla mauris et volutpat adipiscing suspendisse vehicula blandit sagittis orci etiam morbi elit etiam semper eu lacus pretium hac nisl leo amet ullamcorper."',
+    image: "/images/home/reviews/img-2.jpg",
+    user: "MORGAN JONATHAN",
+  },
+  {
+    review:
+      '"Proin nulla mauris et volutpat adipiscing suspendisse vehicula blandit sagittis orci etiam morbi elit etiam semper eu lacus pretium hac nisl leo amet ullamcorper."',
+    image: "/images/home/reviews/img-3.jpg",
+    user: "JULIE ROBINSON",
+  },
+  {
+    review:
+      '"Proin nulla mauris et volutpat adipiscing suspendisse vehicula blandit sagittis orci etiam morbi elit etiam semper eu lacus pretium hac nisl leo amet ullamcorper."',
+    image: "/images/home/reviews/img-4.jpg",
+    user: "JAMES BROOK",
   },
 ];

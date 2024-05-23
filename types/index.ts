@@ -4,3 +4,9 @@ export interface CardPropType {
   title: string;
   desc: string;
 }
+
+export interface ReviewCardProps {
+  review: string;
+  image: string;
+  user: string;
+}
