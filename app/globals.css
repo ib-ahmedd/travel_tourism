@@ -4,3 +4,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.general_width {
+  @apply w-full px-4 xl:w-4/5 xl:px-0;
+}
