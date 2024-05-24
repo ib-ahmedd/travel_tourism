@@ -1,9 +1,10 @@
-import { Hero } from "./components";
+import { Form, Hero } from "./components";
 
 function Contact() {
   return (
     <main>
       <Hero />
+      <Form />
     </main>
   );
 }
