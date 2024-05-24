@@ -13,7 +13,7 @@
 }
 
 h1 {
-  @apply font-serif-display text-white font-normal leading-[4rem] text-5xl md:text-6xl lg:text-7xl;
+  @apply font-serif-display text-white font-semibold break-words leading-[4rem] text-5xl md:text-6xl lg:text-7xl;
 }
 
 h2 {
