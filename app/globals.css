@@ -17,11 +17,11 @@ h1 {
 }
 
 h2 {
-  @apply font-serif-display text-semi-black text-3xl md:text-5xl;
+  @apply font-serif-display font-semibold text-semi-black text-3xl md:text-5xl;
 }
 
 h3 {
-  @apply font-serif-display text-semi-black text-2xl sm:text-3xl;
+  @apply font-serif-display font-semibold text-semi-black text-2xl sm:text-3xl;
 }
 
 .hero_filter {
@@ -37,6 +37,10 @@ h3 {
 }
 .footer_links {
   @apply flex flex-col items-center md:items-start text-text-gray;
+}
+
+.hero {
+  position: relative;
 }
 
 .hero::before {

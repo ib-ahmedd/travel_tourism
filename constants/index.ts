@@ -70,3 +70,42 @@ export const footerHelpArray = [
   "Offers",
   "Location",
 ];
+
+export const roomsArray: CardPropType[] = [
+  {
+    image: "/images/rooms/rooms-sec/room-1.jpg",
+    imageDesc: "hotel room",
+    title: "Double Deluxe Room",
+    desc: "Our double deluxe rooms are complemented with modern and luxurious amenities for a wonderful stay.",
+  },
+  {
+    image: "/images/rooms/rooms-sec/room-2.jpg",
+    imageDesc: "hotel room",
+    title: "Double Club Room",
+    desc: "We offer 15 club rooms designed with a vibrant touch to enhance your spirits for a happening holiday.",
+  },
+  {
+    image: "/images/rooms/rooms-sec/room-3.jpg",
+    imageDesc: "hotel room",
+    title: "Standard Suite",
+    desc: "If you are looking for a room that gives you both space and luxury at a reasonable price, this is the one for you.",
+  },
+  {
+    image: "/images/rooms/rooms-sec/room-4.jpg",
+    imageDesc: "hotel room",
+    title: "Executive Suite",
+    desc: "Experience luxury in style in our executive suites. These rooms also give you a beautiful view of the city.",
+  },
+  {
+    image: "/images/rooms/rooms-sec/room-5.jpg",
+    imageDesc: "hotel room",
+    title: "Grand Suite",
+    desc: "This is the second-highest ranked room in our hotel that offers luxury with the most advanced amenities.",
+  },
+  {
+    image: "/images/rooms/rooms-sec/room-6.jpg",
+    imageDesc: "hotel room",
+    title: "Presidential Suite",
+    desc: "Wish to live like a king? Here’s the top presidential suite where you can spend the best days of your life.",
+  },
+];

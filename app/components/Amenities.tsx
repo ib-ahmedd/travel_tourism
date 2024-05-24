@@ -15,7 +15,7 @@ function Amenities() {
         </div>
         <div className="flex flex-col md:flex-row w-full justify-between gap-8">
           {amenitiesArray.map((item) => (
-            <Card key={item.title} {...item} />
+            <Card key={item.title} {...item} imageWidth="w-[350px]" />
           ))}
         </div>
       </div>

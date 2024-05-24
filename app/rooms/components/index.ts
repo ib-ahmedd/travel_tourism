@@ -1,3 +1,4 @@
 import Hero from "./Hero";
+import RoomsSec from "./RoomsSec";
 
-export { Hero };
+export { Hero, RoomsSec };

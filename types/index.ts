@@ -3,6 +3,8 @@ export interface CardPropType {
   imageDesc: string;
   title: string;
   desc: string;
+  cardWidth?: string;
+  imageWidth: string;
 }
 
 export interface ReviewCardProps {
