@@ -109,3 +109,62 @@ export const roomsArray: CardPropType[] = [
     desc: "Wish to live like a king? Here’s the top presidential suite where you can spend the best days of your life.",
   },
 ];
+
+export const amenitiesPageArray: CardPropType[] = [
+  {
+    image: "/images/amenities/amenities-sec/swimming-pool.jpg",
+    imageDesc: "hotel amenities",
+    title: "An Infinite-edge Pool",
+    desc: "Experience the joy of swimming in our infinity-edge pool that gives you a nice picturesque view.",
+  },
+  {
+    image: "/images/amenities/amenities-sec/spa.jpg",
+    imageDesc: "hotel amenities",
+    title: "An Iconic Spa",
+    desc: "Set forth on an exquisite wellness journey to refresh, re-energize and rejuvenate at our iconic spa.",
+  },
+  {
+    image: "/images/amenities/amenities-sec/rooms.jpg",
+    imageDesc: "hotel amenities",
+    title: "Luxurious Rooms",
+    desc: "Our rooms are more than just a place to stay. The relaxing ambience will keep you happy all through.",
+  },
+  {
+    image: "/images/amenities/amenities-sec/bathtub.jpg",
+    imageDesc: "hotel amenities",
+    title: "Deep Soaking Bath-tub",
+    desc: "Take a dip into these special bath-tubs to soak into a refreshing vacation mode that you’ve wanted.",
+  },
+  {
+    image: "/images/amenities/amenities-sec/computer.jpg",
+    imageDesc: "hotel amenities",
+    title: "Guest Computer & WiFi",
+    desc: "We offer special computers and WiFi for guests who’d like to stay connected while on vacation.",
+  },
+  {
+    image: "/images/amenities/amenities-sec/concierge.jpg",
+    imageDesc: "hotel amenities",
+    title: "24 Hour Concierge",
+    desc: "We have three in-house restaurants offering different cuisines that you can choose from.",
+  },
+];
+export const amenitiesOthersArray: CardPropType[] = [
+  {
+    image: "/images/amenities/other/terrace.jpg",
+    imageDesc: "other perks",
+    title: "Ocean View Terrace",
+    desc: "Among the scenic beauty of the city we also have an ocean view terrace for every suite in our hotel.",
+  },
+  {
+    image: "/images/amenities/other/food.jpg",
+    imageDesc: "other perks",
+    title: "Delicious Food",
+    desc: "We have team chefs from across the world. So you can enjoy the delicacies anytime during your stay.",
+  },
+  {
+    image: "/images/amenities/other/beach.jpg",
+    imageDesc: "other perks",
+    title: "Private Beach",
+    desc: "Want to take a dip into the sea? All our guests get complimentary access to our private beach.",
+  },
+];

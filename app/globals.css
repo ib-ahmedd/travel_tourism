@@ -13,15 +13,15 @@
 }
 
 h1 {
-  @apply font-serif-display text-white font-semibold break-words leading-[4rem] text-5xl md:text-6xl lg:text-7xl;
+  @apply font-serif-display text-white font-medium break-words leading-[4rem] text-5xl md:text-6xl lg:text-7xl;
 }
 
 h2 {
-  @apply font-serif-display font-semibold text-semi-black text-3xl md:text-5xl;
+  @apply font-serif-display font-medium text-semi-black text-3xl md:text-5xl;
 }
 
 h3 {
-  @apply font-serif-display font-semibold text-semi-black text-2xl sm:text-3xl;
+  @apply font-serif-display font-medium text-semi-black text-2xl sm:text-3xl;
 }
 
 .hero_filter {

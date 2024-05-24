@@ -4,11 +4,18 @@ export interface CardPropType {
   title: string;
   desc: string;
   cardWidth?: string;
-  imageWidth: string;
+  imageWidth?: string;
 }
 
 export interface ReviewCardProps {
   review: string;
   image: string;
   user: string;
+}
+
+export interface CardContainerProps {
+  heading: string;
+  paragraph: string;
+  cardArray: CardPropType[];
+  buttonText: string;
 }
