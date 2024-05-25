@@ -35,7 +35,7 @@ function Collage() {
           <img
             src="/images/amenities/gallery/gallery-5.jpg"
             alt="hotel gallery"
-            className="w-full md:w-1/2"
+            className="w-1/2"
             data-aos="fade-right"
           />
           <img
