@@ -8,6 +8,7 @@ function Card({
   desc,
   cardWidth,
   imageWidth,
+  delay,
 }: CardPropType) {
   return (
     <article className={`flex flex-col ${cardWidth} mb-8`}>
@@ -15,6 +16,8 @@ function Card({
         src={image}
         alt={imageDesc}
         className={`${imageWidth ? imageWidth : "w-full"} self-center`}
+        data-aos="fade-up"
+        data-aos-delay={`${delay}`}
       />
       <div className="w-4/5 flex flex-col gap-2 mt-8">
         <h3 className="flex">{title}</h3>

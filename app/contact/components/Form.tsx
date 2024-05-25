@@ -10,18 +10,18 @@ function Form() {
     <section className="form general_parent py-20">
       <div className="general_width flex flex-col md:flex-row gap-12 md:gap-0">
         <div className="right flex-1 flex flex-col gap-8">
-          <span>
+          <span data-aos="fade-right">
             <h2>Reception Office</h2>
             <p>
               2855 Nelsonville Rd, Boston, Massachusetts
               <br className="hidden md:block" /> (MA), 40107
             </p>
           </span>
-          <span>
+          <span data-aos="fade-right">
             <h2>Reception Hours</h2>
             <p>7:30 AM - 11:00 PM</p>
           </span>
-          <span>
+          <span data-aos="fade-right">
             <h2>Contact</h2>
             <p>
               +1-123 456 7890
@@ -29,7 +29,7 @@ function Form() {
               contact@info.com
             </p>
           </span>
-          <span>
+          <span data-aos="fade-right">
             <h2>Follow us</h2>
             <div className="flex gap-8">
               <FontAwesomeIcon icon={faInstagram} />

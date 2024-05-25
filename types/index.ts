@@ -5,6 +5,7 @@ export interface CardPropType {
   desc: string;
   cardWidth?: string;
   imageWidth?: string;
+  delay?: string;
 }
 
 export interface ReviewCardProps {

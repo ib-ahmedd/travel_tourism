@@ -11,7 +11,7 @@ function CardContainer({
     <section className="general_parent">
       <div className="general_width flex flex-col gap-8">
         <h2>{heading}</h2>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between md:items-center flex-col md:flex-row gap-4 md:gap-0">
           <p className="w-full md:w-4/6 lg:w-1/2 text-text-gray">{paragraph}</p>
           <button className="generic_button">{buttonText}</button>
         </div>

@@ -1,8 +1,19 @@
+"use client";
 import { amenitiesArray } from "@constants";
 import { Exprerience, Hero, Inside, Review } from "./components";
-import CardContainer from "./components/CardContainer";
+import CardContainer from "../components/CardContainer";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Home() {
+  useEffect(() => {
+    Aos.init({
+      duration: 300,
+      easing: "ease-out",
+    });
+    Aos.refresh();
+  }, []);
   return (
     <main className="flex flex-col gap-20">
       <Hero />

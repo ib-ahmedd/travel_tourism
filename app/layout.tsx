@@ -9,8 +9,8 @@ export const metadata = {
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
-    <html className="overflow-x-hidden" lang="en">
-      <body className="font-open-sans">
+    <html className="w-full overflow-x-hidden" lang="en">
+      <body className="font-open-sans w-full overflow-x-hidden">
         <Navbar />
         {children}
         <Footer />

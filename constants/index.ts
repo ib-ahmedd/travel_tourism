@@ -13,18 +13,21 @@ export const amenitiesArray: CardPropType[] = [
     imageDesc: "swimming pool",
     title: "An Infinite-edge Pool",
     desc: "Experience the joy of swimming in our infinity-edge pool that gives you a nice picturesque view.",
+    delay: "",
   },
   {
     image: "/images/home/amenities/spa.jpg",
     imageDesc: "spa",
     title: "An Iconic Spa",
     desc: "Set forth on an exquisite wellness journey to refresh, re-energize and rejuvenate at our iconic spa.",
+    delay: "200",
   },
   {
     image: "/images/home/amenities/rooms.jpg",
     imageDesc: "rooms",
     title: "In-house Restaurants",
     desc: "We have three in-house restaurants offering different cuisines that you can choose from.",
+    delay: "400",
   },
 ];
 
@@ -122,12 +125,14 @@ export const amenitiesPageArray: CardPropType[] = [
     imageDesc: "hotel amenities",
     title: "An Iconic Spa",
     desc: "Set forth on an exquisite wellness journey to refresh, re-energize and rejuvenate at our iconic spa.",
+    delay: "200",
   },
   {
     image: "/images/amenities/amenities-sec/rooms.jpg",
     imageDesc: "hotel amenities",
     title: "Luxurious Rooms",
     desc: "Our rooms are more than just a place to stay. The relaxing ambience will keep you happy all through.",
+    delay: "400",
   },
   {
     image: "/images/amenities/amenities-sec/bathtub.jpg",
@@ -140,14 +145,17 @@ export const amenitiesPageArray: CardPropType[] = [
     imageDesc: "hotel amenities",
     title: "Guest Computer & WiFi",
     desc: "We offer special computers and WiFi for guests who’d like to stay connected while on vacation.",
+    delay: "200",
   },
   {
     image: "/images/amenities/amenities-sec/concierge.jpg",
     imageDesc: "hotel amenities",
     title: "24 Hour Concierge",
     desc: "We have three in-house restaurants offering different cuisines that you can choose from.",
+    delay: "400",
   },
 ];
+
 export const amenitiesOthersArray: CardPropType[] = [
   {
     image: "/images/amenities/other/terrace.jpg",
@@ -160,11 +168,13 @@ export const amenitiesOthersArray: CardPropType[] = [
     imageDesc: "other perks",
     title: "Delicious Food",
     desc: "We have team chefs from across the world. So you can enjoy the delicacies anytime during your stay.",
+    delay: "200",
   },
   {
     image: "/images/amenities/other/beach.jpg",
     imageDesc: "other perks",
     title: "Private Beach",
     desc: "Want to take a dip into the sea? All our guests get complimentary access to our private beach.",
+    delay: "400",
   },
 ];

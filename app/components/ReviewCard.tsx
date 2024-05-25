@@ -4,7 +4,10 @@ import { ReviewCardProps } from "@types";
 
 function ReviewCard({ review, image, user }: ReviewCardProps) {
   return (
-    <article className="flex flex-col gap-4 md:gap-8 w-full md:w-[47%] my-8">
+    <article
+      className="flex flex-col gap-4 md:gap-8 w-full md:w-[47%] my-8"
+      data-aos="fade-left"
+    >
       <div className="flex ">
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} />

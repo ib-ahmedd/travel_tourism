@@ -1,8 +1,19 @@
-import CardContainer from "@app/components/CardContainer";
+"use client";
+import { useEffect } from "react";
+import CardContainer from "@components/CardContainer";
 import { Collage, Hero } from "./components";
 import { amenitiesOthersArray, amenitiesPageArray } from "@constants";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Amenities() {
+  useEffect(() => {
+    Aos.init({
+      duration: 300,
+      easing: "ease-out",
+    });
+    Aos.refresh();
+  }, []);
   return (
     <main className="flex flex-col w-full gap-8 md:gap-20">
       <Hero />
