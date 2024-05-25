@@ -6,14 +6,14 @@ function Collage() {
           <img
             src="/images/amenities/gallery/gallery-1.jpg"
             alt="hotel gallery"
-            className="w-1/2 h-fit"
+            className="w-1/2"
             data-aos="fade-left"
             data-aos-delay="200"
           />
           <img
             src="/images/amenities/gallery/gallery-2.jpg"
             alt="hotel gallery"
-            className="w-1/2 h-fit"
+            className="w-1/2"
             data-aos="fade-left"
           />
         </div>
