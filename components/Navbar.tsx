@@ -3,11 +3,16 @@ import { navLinksArray } from "@constants";
 import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
   return (
     <nav className="w-full flex justify-center py-8 absolute top-0 text-white antialiased z-20">
       <div className="general_width items-center gap-16 hidden md:flex">
