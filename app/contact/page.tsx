@@ -7,8 +7,8 @@ import { useEffect } from "react";
 function Contact() {
   useEffect(() => {
     Aos.init({
-      duration: 300,
-      easing: "ease-out",
+      duration: 200,
+      easing: "ease-in-out",
     });
     Aos.refresh();
   }, []);

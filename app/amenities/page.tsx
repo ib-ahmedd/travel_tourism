@@ -9,8 +9,8 @@ import "aos/dist/aos.css";
 function Amenities() {
   useEffect(() => {
     Aos.init({
-      duration: 300,
-      easing: "ease-out",
+      duration: 200,
+      easing: "ease-in-out",
     });
     Aos.refresh();
   }, []);

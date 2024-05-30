@@ -7,8 +7,8 @@ import "aos/dist/aos.css";
 function Rooms() {
   useEffect(() => {
     Aos.init({
-      duration: 300,
-      easing: "ease-out",
+      duration: 200,
+      easing: "ease-in-out",
     });
   }, []);
   return (
