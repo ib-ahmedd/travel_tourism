@@ -12,10 +12,7 @@ function Form() {
         <div className="right flex-1 flex flex-col gap-8">
           <span data-aos="fade-right">
             <h2>Reception Office</h2>
-            <p>
-              2855 Nelsonville Rd, Boston, Massachusetts
-              <br className="hidden md:block" /> (MA), 40107
-            </p>
+            <p>46 Isa kaita Rd, Kaduna, Nigeria</p>
           </span>
           <span data-aos="fade-right">
             <h2>Reception Hours</h2>
@@ -24,9 +21,9 @@ function Form() {
           <span data-aos="fade-right">
             <h2>Contact</h2>
             <p>
-              +1-123 456 7890
+              +2348161615860
               <br />
-              contact@info.com
+              ahmed1768476@gmail.com
             </p>
           </span>
           <span data-aos="fade-right">
